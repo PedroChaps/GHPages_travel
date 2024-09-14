@@ -1,7 +1,7 @@
 {
   "name": "travel-app",
   "version": "0.1.0",
-  "homepage": "https://pedrochaps.github.io/GHPages_travel",
+  "homepage": "https://travel.chaparro.pt",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -11,6 +11,7 @@
     "@types/node": "^16.18.108",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
+    "js-yaml": "^4.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -44,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
     "gh-pages": "^6.1.1"
   }
 }
