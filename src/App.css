@@ -36,3 +36,170 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.introduction {
+  text-align: justify;
+}
+
+/* Styling the text */
+h1 {
+  font-size: 3.7em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+
+p {
+  margin-top: 20px;
+}
+
+li {
+  margin-top: 1px;
+}
+
+
+/* Content container with a blurred background */
+.content {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1; /* Keeps content above the video */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 40px; /* Increased padding for more space inside the box */
+  width: 80%; /* Adjust the width as needed */
+  max-width: 1600px; /* Maximum width of the box */
+  box-sizing: border-box; /* Ensure padding is included in the height */
+  border-radius: 15px; /* Rounded corners */
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Apply a background blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border for better visibility */
+}
+
+/* Shared style for each country section */
+.country-section {
+  margin-top: 30px;
+  padding: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for the entire box */
+
+}
+
+/* United Kingdom flag-inspired background */
+.bg-UK {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 33, 71, 0.5) 25%,
+    /* rgba(255, 255, 255, 0.5) 25%, */
+    rgba(206, 17, 38, 0.5) 33%,
+    rgba(255, 255, 255, 0.5) 50%,
+    /* rgba(206, 17, 38, 0.5) 50%, */
+    rgba(206, 17, 38, 0.5) 75%,
+    rgba(0, 33, 71, 0.5) 85%
+  );
+  /* background: linear-gradient(135deg, blue, blue 20%, red 40%, white 55%, red 70%, blue 90%); */
+  background-size: cover;
+}
+
+/* Portugal flag-inspired background */
+.bg-PT {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 102, 51, 0.8) 50%,
+    rgba(206, 17, 38, 0.8) 60%
+  );
+  background-size: cover;
+}
+
+/* Canada flag-inspired background */
+.ca {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.7) 33.33%, /* Red */
+    rgba(255, 255, 255, 0.7) 33.33% /* White */
+  );
+}
+
+/* Spain flag-inspired background */
+.es {
+  background-image: linear-gradient(
+    180deg,
+    rgba(198, 12, 48, 0.7) 25%, /* Red */
+    rgba(255, 204, 0, 0.7) 50%,  /* Yellow */
+    rgba(198, 12, 48, 0.7) 25%   /* Red */
+  );
+}
+
+/* Switzerland flag-inspired background */
+.bg-CH {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.7) 100% /* Solid red (background is fully red) */
+  );
+}
+
+/* France flag-inspired background */
+.bg-FR {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 85, 164, 0.7) 33.33%, /* Blue */
+    rgba(255, 255, 255, 0.7) 33.33%, /* White */
+    rgba(239, 65, 53, 0.7) 33.33% /* Red */
+  );
+}
+
+/* Czech Republic flag-inspired background */
+.bg-CZ {
+  background-image: linear-gradient(
+    135deg,
+    rgba(0, 43, 127, 0.7) 50%, /* Blue (diagonal) */
+    rgba(255, 255, 255, 0.7) 25%, /* White */
+    rgba(206, 17, 38, 0.7) 50% /* Red */
+  );
+}
+
+/* Austria flag-inspired background */
+.bg-AT {
+  background-image: linear-gradient(
+    180deg,
+    rgba(237, 41, 57, 0.7) 33.33%, /* Red */
+    rgba(255, 255, 255, 0.7) 33.33%, /* White */
+    rgba(237, 41, 57, 0.7) 33.33% /* Red */
+  );
+}
+
+/* Belgium flag-inspired background */
+.bg-BE {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 33.33%, /* Black */
+    rgba(255, 223, 0, 0.7) 33.33%, /* Yellow */
+    rgba(239, 51, 64, 0.7) 33.33% /* Red */
+  );
+}
+
+/* Norway flag-inspired background */
+.be-NO {
+  background-image: linear-gradient(
+    135deg,
+    rgba(186, 12, 47, 0.7) 50%, /* Red */
+    rgba(255, 255, 255, 0.7) 25%, /* White */
+    rgba(0, 32, 91, 0.7) 50% /* Blue */
+  );
+}

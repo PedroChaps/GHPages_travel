@@ -1,5 +1,6 @@
 United Kingdom:
   name: 🇬🇧 United Kingdom
+  country_code: UK
   videos:
     - url: https://youtu.be/rbPRQV5fs0Y
       description: A cool video I made of my stay in the UK for the Summer of 2024.
@@ -22,6 +23,7 @@ United Kingdom:
 
 Canada:
   name: 🇨🇦 Canada
+  country_code: CA
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/iGxzmHX4g4XVZuAj9
@@ -42,6 +44,7 @@ Canada:
 
 Portugal:
   name: 🇵🇹 Portugal
+  country_code: PT
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/h6P4gjWkCEHG88779
@@ -62,6 +65,7 @@ Portugal:
 
 Spain:
   name: 🇪🇸 Spain
+  country_code: ES
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/hJpwbypZfuSqyYhg7
@@ -83,6 +87,7 @@ Spain:
 
 Switzerland:
   name: 🇨🇭 Switzerland
+  country_code: CH
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/ye9gKtduHywc1tcZA
@@ -103,6 +108,7 @@ Switzerland:
 
 France:
   name: 🇫🇷 France
+  country_code: FR
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/AADSWdnpcxyrCnL46
@@ -123,6 +129,7 @@ France:
 
 Czech Republic:
   name: 🇨🇿 Czech Republic
+  country_code: CZ
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/FeUK7ABsMW17ibD27
@@ -143,6 +150,7 @@ Czech Republic:
 
 Austria:
   name: 🇦🇹 Austria
+  country_code: AT
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/q4HkLA9CVHzEcEgh7
@@ -163,6 +171,7 @@ Austria:
 
 Belgium:
   name: 🇧🇪 Belgium
+  country_code: BE
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/1CMegTZYDwiBSswp9
@@ -183,6 +192,7 @@ Belgium:
 
 Norway:
   name: 🇳🇴 Norway
+  country_code: NO
   videos:
   lists_urls:
     general: https://maps.app.goo.gl/AnLMR4XtycH4iHF68
