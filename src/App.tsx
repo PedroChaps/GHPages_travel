@@ -67,7 +67,7 @@ function App() {
       
       <div className="content">
       
-        <h1 id="title">My Travel Experiences ✈️</h1>
+        <h1 id="title">My Travel Lists ✈️</h1>
         
         
         <h2>Table of Countries</h2>
@@ -88,14 +88,6 @@ function App() {
           <Introduction />
         </div>
 
-          
-          {/* TODO: make it s.t. when posting, the travel.chaparro.pt domain doesn't get erased */}
-          {/* TODO: Write README */}
-          {/* TODO: reference https://www.freepik.com/ for the icons, https://www.freepik.com/author/freepik/icons/kawaii-lineal-color_47?query=portugal https://www.freepik.com/author/vitaly-gorbachev/icons/vitaliy-gorbachev-lineal-color_571?query=czechia */}
-          
-          {/* TODO: add margin on the end */}
-          {/* TODO: blur changes when scrolling */}  
-        
           <h2>Countries</h2>
             
           {/* Creates a country per item in the data file */}
