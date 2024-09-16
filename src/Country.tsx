@@ -1,7 +1,6 @@
 // Represents a country section within the app.
 
 import { Tilt } from 'react-tilt';
-import { CountryData } from './types';
 
 var likeLogo = '/icons/like.png';
 var recommendedLogo = '/icons/recommended.png';
@@ -34,7 +33,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
               <p>
                 <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.general} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer"> 
-                      <img src={generalListsPath + country.country_code + ".png"} className='h-12'/> 
+                      <img alt="" src={generalListsPath + country.country_code + ".png"} className='h-12'/> 
                       <span>General List</span>
                     </a>
                   </Tilt>
@@ -47,7 +46,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
             
             {country.lists_urls?.liked?.entertainment || country.lists_urls?.liked?.hotels || country.lists_urls?.liked?.restaurants || country.lists_urls?.liked?.services || country.lists_urls?.liked?.sights ? (
               <div className='flex justify-center items-center m-6'>
-                <img src={likeLogo} className='h-5'/>
+                <img alt="" src={likeLogo} className='h-5'/>
                 <h3 className='ml-2'>Liked Places</h3>
             </div>
             ) : (
@@ -60,7 +59,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.liked?.entertainment ? (
                   <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.liked?.entertainment} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer"> 
-                      <img src={entertainmentLogo} className='h-12'/> 
+                      <img alt="" src={entertainmentLogo} className='h-12'/> 
                       <span>Entertainment</span>
                     </a>
                   </Tilt>
@@ -72,7 +71,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.liked?.hotels ? (
                   <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.liked?.hotels} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                      <img src={hotelLogo} className='h-12'/>
+                      <img alt="" src={hotelLogo} className='h-12'/>
                       <span>Hotels</span>
                     </a>
                   </Tilt>
@@ -84,7 +83,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.liked?.restaurants ? (
                   <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.liked?.restaurants} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                      <img src={restaurantLogo} className='h-12'/>
+                      <img alt="" src={restaurantLogo} className='h-12'/>
                       <span>Restaurants</span>
                     </a>
                   </Tilt>
@@ -96,7 +95,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.liked?.food ? (
                   <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.liked?.food} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                      <img src={foodLogo} className='h-12'/>
+                      <img alt="" src={foodLogo} className='h-12'/>
                       <span>Food</span>
                     </a>
                   </Tilt>
@@ -108,7 +107,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.liked?.services ? (
                   <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.liked?.services} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                      <img src={servicesLogo} className='h-12'/>
+                      <img alt="" src={servicesLogo} className='h-12'/>
                       <span>Services</span>
                     </a>
                   </Tilt>
@@ -120,7 +119,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.liked?.sights ? (
                   <Tilt options={defaultTiltOptions}>
                     <a href={country.lists_urls?.liked?.sights} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                      <img src={sightsLogo} className='h-12'/>
+                      <img alt="" src={sightsLogo} className='h-12'/>
                       <span>Sights</span>
                     </a>
                   </Tilt>
@@ -134,7 +133,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
             
             {country.lists_urls?.recommended?.entertainment || country.lists_urls?.recommended?.hotels || country.lists_urls?.recommended?.restaurants || country.lists_urls?.recommended?.services || country.lists_urls?.recommended?.sights ? (
               <div className='flex justify-center items-center m-6'>
-                <img src={recommendedLogo} className='h-8'/>
+                <img alt="" src={recommendedLogo} className='h-8'/>
                 <h3 className='ml-2'>Recommended Places</h3>
               </div>
             ) : (
@@ -146,7 +145,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.recommended?.entertainment ? (
                   <Tilt options={defaultTiltOptions}>
                   <a href={country.lists_urls?.recommended?.entertainment} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer"> 
-                    <img src={entertainmentLogo} className='h-12'/> 
+                    <img alt="" src={entertainmentLogo} className='h-12'/> 
                     <span>Entertainment</span>
                   </a>
                   </Tilt>
@@ -158,7 +157,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.recommended?.hotels ? (
                   <Tilt options={defaultTiltOptions}>
                   <a href={country.lists_urls?.recommended?.hotels} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                    <img src={hotelLogo} className='h-12'/>
+                    <img alt="" src={hotelLogo} className='h-12'/>
                     <span>Hotels</span>
                   </a>
                   </Tilt>
@@ -170,7 +169,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.recommended?.restaurants ? (
                   <Tilt options={defaultTiltOptions}>
                   <a href={country.lists_urls?.recommended?.restaurants} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                    <img src={restaurantLogo} className='h-12'/>
+                    <img alt="" src={restaurantLogo} className='h-12'/>
                     <span>Restaurants</span>
                   </a>
                   </Tilt>
@@ -182,7 +181,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.recommended?.food ? (
                   <Tilt options={defaultTiltOptions}>
                   <a href={country.lists_urls?.recommended?.food} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                    <img src={foodLogo} className='h-12'/>
+                    <img alt="" src={foodLogo} className='h-12'/>
                     <span>Food</span>
                   </a>
                   </Tilt>
@@ -194,7 +193,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.recommended?.services ? (
                   <Tilt options={defaultTiltOptions}>
                   <a href={country.lists_urls?.recommended?.services} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                    <img src={servicesLogo} className='h-12'/>
+                    <img alt="" src={servicesLogo} className='h-12'/>
                     <span>Services</span>
                   </a>
                   </Tilt>
@@ -206,7 +205,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                 country.lists_urls?.recommended?.sights ? (
                   <Tilt options={defaultTiltOptions}>
                   <a href={country.lists_urls?.recommended?.sights} target="_blank" className="ml-2 mr-2 flex flex-col items-center transition duration-300 hover:scale-125 hover:text-slate-600" rel="noopener noreferrer">
-                    <img src={sightsLogo} className='h-12'/>
+                    <img alt="" src={sightsLogo} className='h-12'/>
                     <span>Sights</span>
                   </a>
                   </Tilt>
@@ -220,7 +219,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
             
             {country.videos?.length > 0 ? (
               <div className='flex justify-center items-center m-6'>
-              <img src={videoLogo} className='h-8'/>
+              <img alt="" src={videoLogo} className='h-8'/>
               <h3 className='ml-2'>Videos</h3>
             </div>
             ) : (
