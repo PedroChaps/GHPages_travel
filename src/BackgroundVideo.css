@@ -7,9 +7,7 @@
     margin: 0; /* Remove any default margin */
     padding: 0; /* Remove any default padding */
   }
-  
-  /* TODO: blur changes when scrolling */
-  
+    
   /* Fullscreen video with scaling and positioning */
   .background-video {
     position: fixed;
@@ -18,7 +16,7 @@
     transform: translateX(-50%) scale(1.1); /* Center the video horizontally */
     min-width: 100vw; /* Ensures video covers the entire width */
     min-height: 100vh; /* Ensures video covers the entire height */
-    filter: blur(7px); /* Blur effect */
+    filter: blur(4px); /* Blur effect */
     object-fit: cover; /* Scale the video to fit the container */
     z-index: -1; /* Ensures video stays behind the content */
   }

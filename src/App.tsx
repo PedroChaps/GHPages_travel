@@ -3,37 +3,22 @@ import './App.css';
 import yaml from 'js-yaml';
 import BackgroundVideo from './BackgroundVideo';
 import Introduction from './Introduction';
+import Country from './Country';
 
-interface SpecificTypes {
-  entertainment: string;
-  hotels: string;
-  restaurants: string;
-  food: string;
-  services: string;
-  sights: string;
+import { CountryData } from './types';
+
+const defaultTiltOptions = {
+	reverse:        true,  // reverse the tilt direction
+	max:            30,     // max tilt rotation (degrees)
+	perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
+	scale:          1,    // 2 = 200%, 1.5 = 150%, etc..
+	speed:          1000,   // Speed of the enter/exit transition
+	transition:     true,   // Set a transition on enter/exit.
+	axis:           null,   // What axis should be disabled. Can be X or Y.
+	reset:          true,    // If the tilt effect has to be reset on exit.
+	easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
 }
 
-interface ListsUrls {
-  general: string;
-  liked: SpecificTypes;
-  recommended: SpecificTypes;
-}
-
-interface Video {
-  url: string;
-  description: string;
-}
-
-interface Country {
-  name: string;
-  country_code: string;
-  videos: Video[];
-  lists_urls: ListsUrls;
-}
-
-interface CountryData {
-  [countryName: string]: Country;
-}
 
 function App() {
   
@@ -82,70 +67,45 @@ function App() {
       
       <div className="content">
       
-        <h1>My Travel Experiences ✈️</h1>
+        <h1 id="title">My Travel Experiences ✈️</h1>
         
-        <Introduction />
+        
+        <h2>Table of Countries</h2>
+        
+        {/* puts a div that is centered but the text within it is left aligned */}
+        <div className="table-of-countries flex flex-center max-w-72">
+          <ul className="ml-auto mr-auto text-left">
+            {data && Object.entries(data).map(([countryName, country]) => (
+              <li key={countryName}>
+                <a href={`#${country.country_code}`} className="hover:text-slate-600 hover:underline transition">{country.name}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        
+        <h2>Introduction</h2>
+        <div className="country-section">
+          <Introduction />
+        </div>
+
           
-
+          {/* TODO: make it s.t. when posting, the travel.chaparro.pt domain doesn't get erased */}
+          {/* TODO: Write README */}
+          {/* TODO: reference https://www.freepik.com/ for the icons, https://www.freepik.com/author/freepik/icons/kawaii-lineal-color_47?query=portugal https://www.freepik.com/author/vitaly-gorbachev/icons/vitaliy-gorbachev-lineal-color_571?query=czechia */}
+          
+          {/* TODO: add margin on the end */}
+          {/* TODO: blur changes when scrolling */}  
         
-        {data && Object.entries(data).map(([countryName, country]) => (
-          <div key={countryName} className={`country-section bg-${country.country_code}`}>
-            <h2>{country.name}</h2>
-
-            {/* Videos Section */}
-            <h3>Videos</h3>
-            <ul>
-              {/* Safe check to ensure videos exist before mapping */}
-              {country.videos?.length > 0 ? (
-                country.videos.map((video, index) => (
-                  <li key={index}>
-                    <a href={video.url} target="_blank" rel="noopener noreferrer">
-                      {video.description}
-                    </a>
-                  </li>
-                ))
-              ) : (
-                <p>No videos available</p>
-              )}
-            </ul>
-
-            {/* General URL */}
-            <h3>General List URL</h3>
-            {country.lists_urls?.general ? (
-              <p>
-                <a href={country.lists_urls.general} target="_blank" rel="noopener noreferrer">
-                  General List
-                </a>
-              </p>
-            ) : (
-              <p>No general list available</p>
-            )}
-
-            {/* Liked Section */}
-            <h3>Liked Places</h3>
-            <ul>
-              <li><a href={country.lists_urls?.liked?.entertainment} target="_blank" rel="noopener noreferrer">Entertainment</a></li>
-              <li><a href={country.lists_urls?.liked?.hotels} target="_blank" rel="noopener noreferrer">Hotels</a></li>
-              <li><a href={country.lists_urls?.liked?.restaurants} target="_blank" rel="noopener noreferrer">Restaurants</a></li>
-              <li><a href={country.lists_urls?.liked?.food} target="_blank" rel="noopener noreferrer">Food</a></li>
-              <li><a href={country.lists_urls?.liked?.services} target="_blank" rel="noopener noreferrer">Services</a></li>
-              <li><a href={country.lists_urls?.liked?.sights} target="_blank" rel="noopener noreferrer">Sights</a></li>
-            </ul>
-
-            {/* Recommended Section */}
-            <h3>Recommended Places</h3>
-            <ul>
-              <li><a href={country.lists_urls?.recommended?.entertainment} target="_blank" rel="noopener noreferrer">Entertainment</a></li>
-              <li><a href={country.lists_urls?.recommended?.hotels} target="_blank" rel="noopener noreferrer">Hotels</a></li>
-              <li><a href={country.lists_urls?.recommended?.restaurants} target="_blank" rel="noopener noreferrer">Restaurants</a></li>
-              <li><a href={country.lists_urls?.recommended?.food} target="_blank" rel="noopener noreferrer">Food</a></li>
-              <li><a href={country.lists_urls?.recommended?.services} target="_blank" rel="noopener noreferrer">Services</a></li>
-              <li><a href={country.lists_urls?.recommended?.sights} target="_blank" rel="noopener noreferrer">Sights</a></li>
-            </ul>
-          </div>
-        ))}
+          <h2>Countries</h2>
+            
+          {/* Creates a country per item in the data file */}
+          {data && Object.entries(data).map(([countryName, country]) => (
+            <Country countryName={countryName} country={country} defaultTiltOptions={defaultTiltOptions} />
+          ))}
         
       </div>
+      
+          
     </div>
   );
 }

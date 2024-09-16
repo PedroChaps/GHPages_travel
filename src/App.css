@@ -46,13 +46,17 @@
 
 /* Styling the text */
 h1 {
-  font-size: 3.7em;
+  font-size: 3em;
   margin: 0;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 
@@ -73,24 +77,41 @@ li {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 120px;
   z-index: 1; /* Keeps content above the video */
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 40px; /* Increased padding for more space inside the box */
-  width: 80%; /* Adjust the width as needed */
+  width: 90%; /* Adjust the width as needed */
   max-width: 1600px; /* Maximum width of the box */
   box-sizing: border-box; /* Ensure padding is included in the height */
   border-radius: 15px; /* Rounded corners */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  background: rgba(255, 255, 255, 0.49); /* Semi-transparent white background */
   backdrop-filter: blur(10px); /* Apply a background blur effect */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border for better visibility */
+}
+
+/* Shared style for each country section */
+.table-of-countries {
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for the entire box */
+
 }
 
 /* Shared style for each country section */
 .country-section {
   margin-top: 30px;
   padding: 20px;
-  width: 90%;
+  width: 100%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
@@ -105,13 +126,13 @@ li {
 .bg-UK {
   background: linear-gradient(
     135deg,
-    rgba(0, 33, 71, 0.5) 25%,
-    /* rgba(255, 255, 255, 0.5) 25%, */
-    rgba(206, 17, 38, 0.5) 33%,
-    rgba(255, 255, 255, 0.5) 50%,
-    /* rgba(206, 17, 38, 0.5) 50%, */
-    rgba(206, 17, 38, 0.5) 75%,
-    rgba(0, 33, 71, 0.5) 85%
+    rgba(0, 33, 71, 0.39) 25%,
+    /* rgba(255, 255, 255, 0.39) 25%, */
+    rgba(206, 17, 38, 0.39) 33%,
+    rgba(255, 255, 255, 0.39) 50%,
+    /* rgba(206, 17, 38, 0.39) 50%, */
+    rgba(206, 17, 38, 0.39) 75%,
+    rgba(0, 33, 71, 0.39) 85%
   );
   /* background: linear-gradient(135deg, blue, blue 20%, red 40%, white 55%, red 70%, blue 90%); */
   background-size: cover;
@@ -120,29 +141,33 @@ li {
 /* Portugal flag-inspired background */
 .bg-PT {
   background: linear-gradient(
-    135deg,
-    rgba(0, 102, 51, 0.8) 50%,
-    rgba(206, 17, 38, 0.8) 60%
+    90deg,
+    rgba(0, 102, 51, 0.39) 30%,
+    rgba(238, 210, 2, 0.39) 40%,
+    rgba(206, 17, 38, 0.39) 60%
   );
   background-size: cover;
 }
 
 /* Canada flag-inspired background */
-.ca {
+.bg-CA {
   background-image: linear-gradient(
     90deg,
-    rgba(255, 0, 0, 0.7) 33.33%, /* Red */
-    rgba(255, 255, 255, 0.7) 33.33% /* White */
+    rgba(255, 0, 0, 0.39) 25%, /* Red */
+    rgba(255, 255, 255, 0.39) 33%, /* White */
+    rgba(255, 0, 0, 0.39) 50%, /* Red */
+    rgba(255, 255, 255, 0.39) 66%, /* White */
+    rgba(255, 0, 0, 0.39) 75% /* Red */
   );
 }
 
 /* Spain flag-inspired background */
-.es {
+.bg-ES {
   background-image: linear-gradient(
     180deg,
-    rgba(198, 12, 48, 0.7) 25%, /* Red */
-    rgba(255, 204, 0, 0.7) 50%,  /* Yellow */
-    rgba(198, 12, 48, 0.7) 25%   /* Red */
+    rgba(215, 12, 12, 0.39) 15%, /* Red */
+    rgba(255, 204, 0, 0.39) 50%,  /* Yellow */
+    rgba(215, 12, 12, 0.39) 85%   /* Red */
   );
 }
 
@@ -150,7 +175,9 @@ li {
 .bg-CH {
   background-image: linear-gradient(
     90deg,
-    rgba(255, 0, 0, 0.7) 100% /* Solid red (background is fully red) */
+    rgba(255, 0, 0, 0.39) 15%, 
+    rgba(255, 255, 255, 0.39) 50%,
+    rgba(255, 0, 0, 0.39) 85%
   );
 }
 
@@ -158,9 +185,9 @@ li {
 .bg-FR {
   background-image: linear-gradient(
     90deg,
-    rgba(0, 85, 164, 0.7) 33.33%, /* Blue */
-    rgba(255, 255, 255, 0.7) 33.33%, /* White */
-    rgba(239, 65, 53, 0.7) 33.33% /* Red */
+    rgba(0, 85, 164, 0.39) 33.33%, /* Blue */
+    rgba(255, 255, 255, 0.39) 66.66%, /* White */
+    rgba(239, 65, 53, 0.39) 99.99% /* Red */
   );
 }
 
@@ -168,9 +195,9 @@ li {
 .bg-CZ {
   background-image: linear-gradient(
     135deg,
-    rgba(0, 43, 127, 0.7) 50%, /* Blue (diagonal) */
-    rgba(255, 255, 255, 0.7) 25%, /* White */
-    rgba(206, 17, 38, 0.7) 50% /* Red */
+    rgba(0, 43, 127, 0.39) 30%, /* Blue (diagonal) */
+    rgba(255, 255, 255, 0.39) 60%, /* White */
+    rgba(206, 17, 38, 0.39) 85% /* Red */
   );
 }
 
@@ -178,9 +205,9 @@ li {
 .bg-AT {
   background-image: linear-gradient(
     180deg,
-    rgba(237, 41, 57, 0.7) 33.33%, /* Red */
-    rgba(255, 255, 255, 0.7) 33.33%, /* White */
-    rgba(237, 41, 57, 0.7) 33.33% /* Red */
+    rgba(215, 12, 12, 0.39) 15%, /* Red */
+    rgba(255, 255, 255, 0.39) 50%,  /* Yellow */
+    rgba(215, 12, 12, 0.39) 85%   /* Red */
   );
 }
 
@@ -188,18 +215,19 @@ li {
 .bg-BE {
   background-image: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0.7) 33.33%, /* Black */
-    rgba(255, 223, 0, 0.7) 33.33%, /* Yellow */
-    rgba(239, 51, 64, 0.7) 33.33% /* Red */
+    rgba(0, 0, 0, 0.39) 33.33%, /* Black */
+    rgba(255, 223, 0, 0.39) 66.66%, /* Yellow */
+    rgba(239, 51, 64, 0.39) 99.99% /* Red */
   );
 }
 
 /* Norway flag-inspired background */
-.be-NO {
+.bg-NO {
   background-image: linear-gradient(
     135deg,
-    rgba(186, 12, 47, 0.7) 50%, /* Red */
-    rgba(255, 255, 255, 0.7) 25%, /* White */
-    rgba(0, 32, 91, 0.7) 50% /* Blue */
+    rgba(186, 12, 47, 0.39) 25%, /* Red */
+    rgba(255, 255, 255, 0.39) 30%, /* White */
+    rgba(0, 32, 91, 0.39) 40%, /* Blue */
+    rgba(186, 12, 47, 0.39) 70% /* Red */
   );
 }
