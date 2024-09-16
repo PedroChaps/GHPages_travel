@@ -248,7 +248,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
 
             {/* Back to top */}
             <br/>
-            <a href="#title" className="hover:text-slate-600 underline transition">Back to top</a>
+            <a href="#top" className="hover:text-slate-600 underline transition">Back to top</a>
             
           </div>
     )
