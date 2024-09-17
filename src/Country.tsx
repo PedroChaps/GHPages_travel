@@ -238,7 +238,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
                       className="rounded-lg ml-auto mr-auto w-[270px] h-[150px] md:w-[560px] md:h-[315px]"
                       src={video.url}
                       title={video.description}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen/>
                   </div>
                 ))
