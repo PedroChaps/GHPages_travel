@@ -4,7 +4,7 @@ import yaml from 'js-yaml';
 import BackgroundVideo from './BackgroundVideo';
 import Introduction from './Introduction';
 import Country from './Country';
-
+import { Link } from 'react-scroll';
 import { CountryData } from './types';
 
 const defaultTiltOptions = {
@@ -61,7 +61,7 @@ function App() {
   
   return (
 
-    <div>
+    <div id="top">
       
       <BackgroundVideo />
       
@@ -77,7 +77,7 @@ function App() {
           <ul className="ml-auto mr-auto text-left">
             {data && Object.entries(data).map(([countryName, country]) => (
               <li key={countryName}>
-                <a href={`#${country.country_code}`} className="hover:text-slate-600 hover:underline transition">{country.name}</a>
+                <Link to={`${country.country_code}`} spy={true} smooth={'easeInOutQuad'} className="hover:text-slate-600 hover:underline transition">{country.name}</Link>
               </li>
             ))}
           </ul>

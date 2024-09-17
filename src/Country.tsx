@@ -1,6 +1,7 @@
 // Represents a country section within the app.
 
 import { Tilt } from 'react-tilt';
+import {Link } from 'react-scroll';
 
 var likeLogo = '/icons/like.png';
 var recommendedLogo = '/icons/recommended.png';
@@ -248,7 +249,7 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
 
             {/* Back to top */}
             <br/>
-            <a href="#top" className="hover:text-slate-600 underline transition">Back to top</a>
+            <Link to="top" spy={true} smooth={'easeInOutQuad'} className="hover:text-slate-600 underline transition">Back to top</Link>
             
           </div>
     )

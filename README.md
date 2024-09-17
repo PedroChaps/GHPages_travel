@@ -67,7 +67,6 @@ The repo structure is as follows:
 │   ├── Introduction.tsx
 │   ├── Country.tsx
 │   ├── react-app-env.d.ts
-│   ├── ToC.tsx
 │   └── types.tsx
 ├── tailwind.config.js
 └── tsconfig.json
@@ -82,7 +81,6 @@ The relevant files are:
   - `App.tsx` and `App.css`: Where the main content is (as if this was the `main()` function of a program) and related CSS
   - `index.tsx` and `index.css`: The entrypoint of the app (as if this was [the `_start()` function](https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/) of a program) and related CSS
   - `BackgroundVideo.tsx` and `BackgroundVideo.css`: self-explanatory. The video that appears in the background.
-  - `ToC.tsx`: A Table of ~~Contents~~ Countries.
   - `Introduction.tsx`: Explains the website
   - `Country.tsx`: Represents a section of a country. Includes all the links to Google Maps lists and potential videos of the countries.
 
