@@ -229,7 +229,6 @@ const Country: React.FC<CountryProps> = ({ countryName, country, defaultTiltOpti
             <ul>
               {/* Safe check to ensure videos exist before mapping */}
               {country.videos?.length > 0 ? (
-                console.log("country.videos = ", country.videos),
                 country.videos.map((video: any, index: any) => (
                   <div>
                   <p>{video.description}</p>

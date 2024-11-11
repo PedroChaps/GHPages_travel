@@ -231,3 +231,123 @@ li {
     rgba(186, 12, 47, 0.39) 70% /* Red */
   );
 }
+
+/* Australia flag-inspired background */
+.bg-AU {
+  background-image: linear-gradient(
+    135deg,
+    rgba(0, 33, 122, 0.39) 30%, /* Dark Blue */
+    rgba(255, 255, 255, 0.39) 45%, /* White */
+    rgba(255, 0, 0, 0.39) 60% /* Red */
+  );
+}
+
+/* Albania flag-inspired background */
+.bg-AL {
+  background-image: linear-gradient(
+    180deg,
+    rgba(186, 12, 47, 0.39) 100% /* Dark Red */
+  );
+}
+
+/* Cabo Verde flag-inspired background */
+.bg-CV {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 56, 168, 0.39) 60%, /* Blue */
+    rgba(255, 255, 255, 0.39) 65%, /* White */
+    rgba(210, 16, 52, 0.39) 85%, /* Red */
+    rgba(255, 255, 255, 0.39) 90% /* White */
+  );
+}
+
+/* Mexico flag-inspired background */
+.bg-MX {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 104, 71, 0.39) 33.33%, /* Green */
+    rgba(255, 255, 255, 0.39) 66.66%, /* White */
+    rgba(206, 17, 38, 0.39) 99.99% /* Red */
+  );
+}
+
+/* China flag-inspired background */
+.bg-CN {
+  background-image: linear-gradient(
+    180deg,
+    rgba(222, 41, 16, 0.39) 100%, /* Red */
+    rgba(255, 215, 0, 0.39) 30% /* Yellow stars (subtle) */
+  );
+}
+
+/* Sri Lanka flag-inspired background */
+.bg-LK {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 122, 61, 0.39) 25%, /* Green */
+    rgba(252, 177, 49, 0.39) 50%, /* Yellow */
+    rgba(138, 21, 56, 0.39) 75% /* Dark Red */
+  );
+}
+
+/* UAE flag-inspired background */
+.bg-AE {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 115, 47, 0.39) 25%, /* Green */
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(0, 0, 0, 0.39) 75%, /* Black */
+    rgba(206, 17, 38, 0.39) 10% /* Red (vertical bar) */
+  );
+}
+
+/* Philippines flag-inspired background */
+.bg-PH {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 56, 168, 0.39) 50%, /* Blue */
+    rgba(206, 17, 38, 0.39) 100% /* Red */
+  );
+  border-left: 20px solid rgba(255, 255, 255, 0.39); /* White triangle */
+}
+
+/* Gibraltar flag-inspired background */
+.bg-GI {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(206, 17, 38, 0.39) 100% /* Red */
+  );
+}
+
+/* Japan flag-inspired background */
+.bg-JP {
+  background-image: radial-gradient(
+    circle,
+    rgba(206, 17, 38, 0.39) 20%, /* Red circle */
+    rgba(255, 255, 255, 0.39) 20% /* White background */
+  );
+}
+
+/* Germany flag-inspired background */
+.bg-DE {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.39) 33.33%, /* Black */
+    rgba(221, 0, 0, 0.39) 66.66%, /* Red */
+    rgba(255, 206, 0, 0.39) 99.99% /* Yellow */
+  );
+}
+
+/* South Africa flag-inspired background */
+.bg-ZA {
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 122, 61, 0.39) 20%, /* Green */
+    rgba(252, 177, 49, 0.39) 30%, /* Yellow */
+    rgba(206, 17, 38, 0.39) 50%, /* Red */
+    rgba(0, 32, 91, 0.39) 70%, /* Blue */
+    rgba(0, 0, 0, 0.39) 100% /* Black */
+  );
+}
+

@@ -56,6 +56,7 @@ export interface CountryData {
                 sights: string;
             };
         };
+        visited: boolean | null;
     }
 }
 

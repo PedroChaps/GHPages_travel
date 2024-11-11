@@ -43,14 +43,15 @@ function App() {
         const sortedEntries = entries.sort(([keyA], [keyB]) => keyA.localeCompare(keyB));
         const sortedData = Object.fromEntries(sortedEntries);
         
-        console.log("text = ", text);
-        console.log("parsed data = ", parsedData);
-        
-        for (const [countryName, country] of Object.entries(sortedData)) {
-          console.log(countryName, country);
+        // Determines if the country is visited or not
+        // A country is visited if at least one of the "liked" keys has a value (i.e., a link)
+        for (const [_, country] of Object.entries(sortedData)) {
+          country.visited = Object.values(country.lists_urls.liked).some(value => value !== null);
         }
         
         setData(sortedData);
+        console.log("Number of countries: ", Object.keys(sortedData).length);
+        
       } catch (error) {
         console.error('Error loading YAML:', error);
       }
@@ -76,11 +77,14 @@ function App() {
         <div className="table-of-countries flex flex-center max-w-72">
           <ul className="ml-auto mr-auto text-left">
             {data && Object.entries(data).map(([countryName, country]) => (
+              // Adds a checkmark if the country is visited
               <li key={countryName}>
-                <Link to={`${country.country_code}`} spy={true} smooth={'easeInOutQuad'} className="hover:text-slate-600 hover:underline transition">{country.name}</Link>
+                <Link to={`${country.country_code}`} spy={true} smooth={'easeInOutQuad'} className="hover:text-slate-600 hover:underline transition">{country.name}{country.visited ? " ✅" : ""}</Link>
               </li>
             ))}
-          </ul>
+            {/* Counts the number of countries visited */}
+            <br/><li> <b>{data && Object.values(data).filter(country => country.visited).length}/197 countries visited</b></li>
+          </ul> 
         </div>
         
         <h2>Introduction</h2>
