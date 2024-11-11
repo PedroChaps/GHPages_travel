@@ -211,10 +211,265 @@ Norway:
       services: 
       sights: 
 
+Australia:
+  name: 🇦🇺 Australia
+  country_code: AU
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/rq4DAQw3UBAioySw8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/Dum56C3SfsjoWMBm9
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/idayRcYVNNUa6R1L6
+
+Albania:
+  name: 🇦🇱 Albania
+  country_code: AL
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/FXoqLUVgAk2hBGHu8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/YgzzgFP1WQuxojEg7
+
+Cape Verde:
+  name: 🇨🇻 Cape Verde
+  country_code: CV
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/JLsPhL4UsFZXBivq6
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/RwG199GRZeLNK9587
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/71q7i8yKeYrUU8jH7
+
+Mexico:
+  name: 🇲🇽 Mexico
+  country_code: MX
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/fe1Wx4ejH4u2cGGQ6
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/cMPauAaCuCLa81c87
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+
+China:
+  name: 🇨🇳 China
+  country_code: CN
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/poWaD2o7oDyMWYBt9
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/DhrMpmvJ38riM9tU9
+
+Sri Lanka:
+  name: 🇱🇰 Sri Lanka
+  country_code: LK
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/xgG8q9RFrZnFJX5b8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/mkhCgG8pLxf1VyW18
+
+Emirates:
+  name: 🇦🇪 Emirates
+  country_code: AE
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/RdA85MYAHYvsdwwP8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/7ayTpxoankiM6EARA
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/6qZmLTTWYAQjVtF18
+
+Philippines:
+  name: 🇵🇭 Philippines
+  country_code: PH
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/poFqZwhjVECc7fBPA
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/D98qpPV2Fsh4H31r5
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+
+Gibraltar:
+  name: 🇬🇮 Gibraltar
+  country_code: GI
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/1TeccCbebMAamotS6
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/Gv3NW7CLYhUvBeL77
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+
+Japan:
+  name: 🇯🇵 Japan 
+  country_code: JP
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/S3ArEUwJM4URhiht7
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/Q8JJFduKNY8waT8S9
+
+Germany:
+  name: 🇩🇪 Germany 
+  country_code: DE
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/99sUqv2GcPsf6dJq9
+    liked: 
+      entertainment: https://maps.app.goo.gl/DqB6v6tQc8wewzDL7
+      hotels: 
+      restaurants: 
+      food: https://maps.app.goo.gl/Y3g17hCRMk28Aihs5
+      services: 
+      sights: https://maps.app.goo.gl/VLNzu5AKzQKZKWbH6
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/hZbQ9p7qM8YQHLhC6
+
+South Africa:
+  name: 🇿🇦 South Africa
+  country_code: ZA
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/ZcJzNTB8qht3VGxh7
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/WzkAFrEUsZEp4JLu7
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+
+
+
 # Template:
 
 # COUNTRY_NAME:
 #   name: COUNTRY_FLAG_EMOJI COUNTRY_NAME
+#   country_code: COUNTRY_CODE
 #   videos:
 #   lists_urls:
 #     general: 
