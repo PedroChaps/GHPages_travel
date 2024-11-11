@@ -245,15 +245,17 @@ li {
 /* Albania flag-inspired background */
 .bg-AL {
   background-image: linear-gradient(
-    180deg,
-    rgba(186, 12, 47, 0.39) 100% /* Dark Red */
+    90deg,
+    rgba(255, 0, 0, 0.39) 33.33%, /* Black */
+    rgba(0, 0, 0, 0.39) 50.66%, /* Red */
+    rgba(255, 0, 0, 0.39) 99.99% /* Black */
   );
 }
 
 /* Cabo Verde flag-inspired background */
 .bg-CV {
   background-image: linear-gradient(
-    90deg,
+    180deg,
     rgba(0, 56, 168, 0.39) 60%, /* Blue */
     rgba(255, 255, 255, 0.39) 65%, /* White */
     rgba(210, 16, 52, 0.39) 85%, /* Red */
@@ -274,9 +276,9 @@ li {
 /* China flag-inspired background */
 .bg-CN {
   background-image: linear-gradient(
-    180deg,
-    rgba(222, 41, 16, 0.39) 100%, /* Red */
-    rgba(255, 215, 0, 0.39) 30% /* Yellow stars (subtle) */
+    90deg,
+    rgba(255, 223, 0, 0.39) 5.33%, /* Yellow */
+    rgba(239, 51, 64, 0.39) 25.99% /* Red */
   );
 }
 
@@ -285,15 +287,15 @@ li {
   background-image: linear-gradient(
     90deg,
     rgba(0, 122, 61, 0.39) 25%, /* Green */
-    rgba(252, 177, 49, 0.39) 50%, /* Yellow */
-    rgba(138, 21, 56, 0.39) 75% /* Dark Red */
+    rgba(252, 177, 49, 0.39) 40%, /* Yellow */
+    rgba(138, 21, 56, 0.39) 65% /* Dark Red */
   );
 }
 
 /* UAE flag-inspired background */
 .bg-AE {
   background-image: linear-gradient(
-    90deg,
+    270deg,
     rgba(0, 115, 47, 0.39) 25%, /* Green */
     rgba(255, 255, 255, 0.39) 50%, /* White */
     rgba(0, 0, 0, 0.39) 75%, /* Black */
@@ -304,11 +306,11 @@ li {
 /* Philippines flag-inspired background */
 .bg-PH {
   background-image: linear-gradient(
-    180deg,
-    rgba(0, 56, 168, 0.39) 50%, /* Blue */
-    rgba(206, 17, 38, 0.39) 100% /* Red */
+    135deg,
+    rgba(255, 255, 255, 0.39) 30%, /* Blue (diagonal) */
+    rgba(0, 43, 127, 0.39) 60%, /* White */
+    rgba(206, 17, 38, 0.39) 85% /* Red */
   );
-  border-left: 20px solid rgba(255, 255, 255, 0.39); /* White triangle */
 }
 
 /* Gibraltar flag-inspired background */
