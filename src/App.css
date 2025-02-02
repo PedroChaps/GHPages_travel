@@ -353,35 +353,16 @@ li {
   );
 }
 
+
 /* Iceland flag-inspired background */
 .bg-IS {
   background-image: linear-gradient(
     90deg,
-    rgba(0, 53, 128, 0.39) 100% /* Blue background */
-  ),
-  linear-gradient(
-    0deg,
-    transparent 35%,
+    rgba(0, 32, 91, 0.39) 40%, /* Blue */
     rgba(255, 255, 255, 0.39) 45%, /* White cross */
-    transparent 55%
-  ),
-  linear-gradient(
-    90deg,
-    transparent 45%,
+    rgba(220, 30, 53, 0.39) 50%, /* Red cross */
     rgba(255, 255, 255, 0.39) 55%, /* White cross */
-    transparent 65%
-  ),
-  linear-gradient(
-    0deg,
-    transparent 42%,
-    rgba(206, 17, 38, 0.39) 48%, /* Red cross */
-    transparent 52%
-  ),
-  linear-gradient(
-    90deg,
-    transparent 48%,
-    rgba(206, 17, 38, 0.39) 52%, /* Red cross */
-    transparent 58%
+    rgba(0, 32, 91, 0.39) 60% /* Blue */
   );
 }
 
@@ -389,21 +370,14 @@ li {
 .bg-DK {
   background-image: linear-gradient(
     90deg,
-    rgba(198, 12, 48, 0.39) 100% /* Red background */
-  ),
-  linear-gradient(
-    0deg,
-    transparent 35%,
+    rgba(198, 12, 48, 0.39) 40%, /* Red */
     rgba(255, 255, 255, 0.39) 45%, /* White cross */
-    transparent 55%
-  ),
-  linear-gradient(
-    90deg,
-    transparent 45%,
+    rgba(198, 12, 48, 0.39) 50%, /* Red */
     rgba(255, 255, 255, 0.39) 55%, /* White cross */
-    transparent 65%
+    rgba(198, 12, 48, 0.39) 60% /* Red */
   );
 }
+
 
 /* Oman flag-inspired background */
 .bg-OM {
@@ -432,5 +406,61 @@ li {
     rgba(255, 206, 0, 0.39) 50%, /* Yellow */
     rgba(0, 56, 168, 0.39) 75%, /* Blue */
     rgba(206, 17, 38, 0.39) 100% /* Red */
+  );
+}
+
+/* USA flag-inspired background */
+.bg-US {
+  background-image: repeating-linear-gradient(
+    180deg,
+    rgba(178, 34, 52, 0.39) 0%, /* Red */
+    rgba(178, 34, 52, 0.39) 20%, 
+    rgba(255, 255, 255, 0.39) 20%, /* White */
+    rgba(255, 255, 255, 0.39) 40%
+  ),
+  linear-gradient(
+    90deg,
+    rgba(10, 49, 97, 0.39) 0%, /* Blue canton */
+    rgba(10, 49, 97, 0.39) 40%,
+    rgba(0, 0, 0, 0) 40% /* Transparent to align with stripes */
+  );
+}
+
+/* Argentina flag-inspired background */
+.bg-AR {
+  background-image: linear-gradient(
+    180deg,
+    rgba(116, 172, 223, 0.39) 25%, /* Light Blue */
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(116, 172, 223, 0.39) 100% /* Light Blue */
+  );
+}
+
+/* Italy flag-inspired background */
+.bg-IT {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 146, 70, 0.39) 25%, /* Green */
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(206, 17, 38, 0.39) 100% /* Red */
+  );
+}
+
+/* Vatican flag-inspired background */
+.bg-VA {
+  background-image: linear-gradient(
+    90deg,
+    rgba(252, 209, 22, 0.39) 50%, /* Yellow */
+    rgba(255, 255, 255, 0.39) 50% /* White */
+  );
+}
+
+/* Turkey flag-inspired background */
+.bg-TR {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.39) 8%, 
+    rgba(255, 255, 255, 0.39) 15%,
+    rgba(255, 0, 0, 0.39) 85%
   );
 }
