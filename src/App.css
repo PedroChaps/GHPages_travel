@@ -353,3 +353,84 @@ li {
   );
 }
 
+/* Iceland flag-inspired background */
+.bg-IS {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 53, 128, 0.39) 100% /* Blue background */
+  ),
+  linear-gradient(
+    0deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.39) 45%, /* White cross */
+    transparent 55%
+  ),
+  linear-gradient(
+    90deg,
+    transparent 45%,
+    rgba(255, 255, 255, 0.39) 55%, /* White cross */
+    transparent 65%
+  ),
+  linear-gradient(
+    0deg,
+    transparent 42%,
+    rgba(206, 17, 38, 0.39) 48%, /* Red cross */
+    transparent 52%
+  ),
+  linear-gradient(
+    90deg,
+    transparent 48%,
+    rgba(206, 17, 38, 0.39) 52%, /* Red cross */
+    transparent 58%
+  );
+}
+
+/* Denmark flag-inspired background */
+.bg-DK {
+  background-image: linear-gradient(
+    90deg,
+    rgba(198, 12, 48, 0.39) 100% /* Red background */
+  ),
+  linear-gradient(
+    0deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.39) 45%, /* White cross */
+    transparent 55%
+  ),
+  linear-gradient(
+    90deg,
+    transparent 45%,
+    rgba(255, 255, 255, 0.39) 55%, /* White cross */
+    transparent 65%
+  );
+}
+
+/* Oman flag-inspired background */
+.bg-OM {
+  background-image: linear-gradient(
+    90deg,
+    rgba(206, 17, 38, 0.39) 33%, /* Red */
+    rgba(255, 255, 255, 0.39) 66%, /* White */
+    rgba(0, 122, 61, 0.39) 100% /* Green */
+  );
+}
+
+/* South Korea flag-inspired background */
+.bg-KR {
+  background-image: radial-gradient(
+    circle,
+    rgba(206, 17, 38, 0.39) 20%, /* Red part of circle */
+    rgba(0, 32, 91, 0.39) 40%, /* Blue part of circle */
+    rgba(255, 255, 255, 0.39) 40% /* White background */
+  );
+}
+
+/* Ecuador flag-inspired background */
+.bg-EC {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 206, 0, 0.39) 50%, /* Yellow */
+    rgba(0, 56, 168, 0.39) 75%, /* Blue */
+    rgba(206, 17, 38, 0.39) 100% /* Red */
+  );
+}
