@@ -116,6 +116,7 @@ If you want to contribute with places you recommend, drop me a message or create
 - The [freepik](https://www.freepik.com/) website was used for the icons.
   - Some of the [Kawaii icons](https://www.freepik.com/author/freepik/icons/kawaii-lineal-color_47?query=portugal)
   - Some of the [flags](https://www.freepik.com/author/vitaly-gorbachev/icons/vitaliy-gorbachev-lineal-color_571?query=czechia)
+  - A few icons were also obtained through [Flaticon](https://www.flaticon.com/free-icons/)
 
 ## Learn More
 

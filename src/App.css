@@ -464,3 +464,74 @@ li {
     rgba(255, 0, 0, 0.39) 85%
   );
 }
+
+/* Singapore flag-inspired background */
+.bg-SG {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.39) 8%,
+    rgba(255, 0, 0, 0.39) 15%, 
+    rgba(255, 255, 255, 0.39) 85%
+  );
+}
+
+/* Croatia flag-inspired background */
+.bg-HR {
+  background-image: linear-gradient(
+    180deg,
+    rgba(206, 17, 38, 0.39) 33.33%, /* Red */
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(0, 56, 168, 0.39) 66.66% /* Blue */
+  );
+}
+
+/* Brazil flag-inspired background */
+.bg-BR {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 156, 59, 0.39) 15%, /* Green */
+    rgba(255, 204, 0, 0.39) 35%, /* Yellow */
+    rgba(0, 0, 255, 0.39) 50%, /* Blue */
+    rgba(255, 204, 0, 0.39) 65%, /* Yellow */
+    rgba(0, 156, 59, 0.39) 85% /* Green */
+    );
+  }
+  
+/* Hungary flag-inspired background */
+.bg-HU {
+  background-image: linear-gradient(
+    180deg,
+    rgba(206, 17, 38, 0.39) 33.33%, /* Red */
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(0, 122, 61, 0.39) 66.66% /* Green */
+  );
+}
+
+/* Poland flag-inspired background */
+.bg-PL {
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.39) 50%, /* Red */
+    rgba(255, 255, 255, 0.39) 50% /* White */
+    );
+}
+  
+/* Netherlands flag-inspired background */
+.bg-NL {
+  background-image: linear-gradient(
+    180deg,
+    rgba(179, 0, 0, 0.39) 33.33%, /* Red */
+    rgba(255, 255, 255, 0.39) 50%, /* White */
+    rgba(0, 32, 91, 0.39) 66.66% /* Blue */
+  );
+}
+
+
+/* Monaco flag-inspired background */
+.bg-MC {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.39) 50%, /* Red */
+    rgba(255, 255, 255, 0.39) 50% /* White */
+  );
+}
