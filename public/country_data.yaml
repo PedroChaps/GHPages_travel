@@ -302,12 +302,12 @@ China:
   lists_urls:
     general: https://maps.app.goo.gl/poWaD2o7oDyMWYBt9
     liked: 
-      entertainment: 
-      hotels: 
-      restaurants: 
-      food: 
+      entertainment: https://maps.app.goo.gl/ySwSV8gGWJyxBmig8
+      hotels: https://maps.app.goo.gl/ZvBfL5pdEq6MULti8
+      restaurants: https://maps.app.goo.gl/5yCxHzFtdEdQTHGv7
+      food: https://maps.app.goo.gl/ZKTbDhWWPb2UhY9Q9
       services: 
-      sights: 
+      sights: https://maps.app.goo.gl/mpESWV8H13YVkkBL8
     recommended:
       entertainment: https://maps.app.goo.gl/zzjHfio7ZntHb87K7
       hotels: 
