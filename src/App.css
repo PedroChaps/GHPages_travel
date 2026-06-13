@@ -526,9 +526,17 @@ li {
   );
 }
 
-
 /* Monaco flag-inspired background */
 .bg-MC {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.39) 50%, /* Red */
+    rgba(255, 255, 255, 0.39) 50% /* White */
+  );
+}
+
+/* Luxembourg flag-inspired background */
+.bg-LU {
   background-image: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.39) 50%, /* Red */

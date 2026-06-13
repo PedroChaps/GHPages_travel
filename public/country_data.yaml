@@ -829,7 +829,26 @@ Monaco:
       services: 
       sights: 
 
-
+Luxembourg:
+  name: 🇱🇺 Luxembourg
+  country_code: LU
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/omzbsuKicxPArGrp6
+    liked: 
+      entertainment: 
+      hotels: https://maps.app.goo.gl/v9eBGCrTwzZnUGor8
+      restaurants: https://maps.app.goo.gl/zXyZtq3pr5f3FjUt9 
+      food: https://maps.app.goo.gl/gKHdpizBpnD9chpt8
+      services: 
+      sights: https://maps.app.goo.gl/Kvso7dxBefzihcLN8
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: https://maps.app.goo.gl/d3U5zvjuY1Fix6C96
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/3zAqxYB6n5j2X8Gp9
 
 
 
