@@ -15,10 +15,10 @@ United Kingdom:
       sights: https://maps.app.goo.gl/VAdydDCd4Ciz3Fby6
     recommended:
       entertainment: https://maps.app.goo.gl/wt5rmNydw1NtHUALA
-      hotels: 
+      hotels: https://maps.app.goo.gl/go36umRqvagc3zkj7
       restaurants: https://maps.app.goo.gl/ghHpryMUtpp32nFE7
       food: https://maps.app.goo.gl/UiFSXfv9n63MHXAX7
-      services: 
+      services: https://maps.app.goo.gl/WDybSTmTtDj4pZPr5
       sights: https://maps.app.goo.gl/xemwXu7BZm9gCEEB8
 
 Canada:
@@ -78,7 +78,7 @@ Spain:
       sights: https://maps.app.goo.gl/hMDjm82XYtns9Lap6
     recommended:
       entertainment: https://maps.app.goo.gl/i5AMMpNTxQ8bEGea9
-      hotels: 
+      hotels: https://maps.app.goo.gl/xHLLx4pJiPXv2aF6A
       restaurants: 
       food: 
       services: 
@@ -102,7 +102,7 @@ Switzerland:
       entertainment: https://maps.app.goo.gl/Z9BCjwa559RNaLn96
       hotels: https://maps.app.goo.gl/NA1DC2ntf9nfedYR7
       restaurants: https://maps.app.goo.gl/4DG3zk4uVeG3v9JQ7
-      food: 
+      food: https://maps.app.goo.gl/kkKbwaAyPPNu9p9K8
       services: 
       sights: https://maps.app.goo.gl/Y7o5Paux9Ka3rxaN8
 
@@ -118,12 +118,12 @@ France:
       restaurants: https://maps.app.goo.gl/AQHrD1oChHQenCYC7
       food: https://maps.app.goo.gl/3tGz854JetAS4jVq8
       services: 
-      sights: https://maps.app.goo.gl/2PLLrRo9FR6mNmQe9
+      sights: https://maps.app.goo.gl/2PLLr9FR6mNmQe9
     recommended:
       entertainment: https://maps.app.goo.gl/c772nxK8R68gevDm7 
       hotels: https://maps.app.goo.gl/E4uHzwmsHvz81ag69
       restaurants: 
-      food: 
+      food: https://maps.app.goo.gl/zQdzvdkY9TWZVQLW9
       services: 
       sights: https://maps.app.goo.gl/XDvzJmvi5sMKX5NCA
 
@@ -178,7 +178,7 @@ Belgium:
     liked: 
       entertainment: https://maps.app.goo.gl/WessKKNjjbCz3HVa8
       hotels: https://maps.app.goo.gl/MbtBFLUtgzohXmf19
-      restaurants: 
+      restaurants: https://maps.app.goo.gl/hyVNhYRdMsMMpr2W9
       food: 
       services: 
       sights: https://maps.app.goo.gl/7QENk2fVDG9yRESS8
@@ -288,12 +288,12 @@ Mexico:
       services: 
       sights: 
     recommended:
-      entertainment: https://maps.app.goo.gl/mDMYktgR1gYyoUmS8
-      hotels: 
+      entertainment: https://maps.app.goo.gl/UCFxTuAdDE5wEcAG7
+      hotels: https://maps.app.goo.gl/HnjFqACPHjkTd3dj8
       restaurants: 
       food: 
       services: 
-      sights: 
+      sights: https://maps.app.goo.gl/iMh2yaW5UQc1VrZE8
 
 China:
   name: 🇨🇳 China
@@ -302,12 +302,12 @@ China:
   lists_urls:
     general: https://maps.app.goo.gl/poWaD2o7oDyMWYBt9
     liked: 
-      entertainment: 
-      hotels: 
-      restaurants: 
-      food: 
+      entertainment: https://maps.app.goo.gl/ySwSV8gGWJyxBmig8
+      hotels: https://maps.app.goo.gl/ZvBfL5pdEq6MULti8
+      restaurants: https://maps.app.goo.gl/5yCxHzFtdEdQTHGv7
+      food: https://maps.app.goo.gl/ZKTbDhWWPb2UhY9Q9
       services: 
-      sights: 
+      sights: https://maps.app.goo.gl/mpESWV8H13YVkkBL8
     recommended:
       entertainment: https://maps.app.goo.gl/zzjHfio7ZntHb87K7
       hotels: 
@@ -435,7 +435,7 @@ Germany:
       services: 
       sights: https://maps.app.goo.gl/zSxKYky5MxLSYNi8A
     recommended:
-      entertainment: 
+      entertainment: https://maps.app.goo.gl/txyznwEFh35wTc9H9
       hotels: 
       restaurants: 
       food: 
@@ -614,7 +614,7 @@ USA:
       restaurants: 
       food: 
       services: 
-      sights: 
+      sights: https://maps.app.goo.gl/72rzFfiD6D56yenc9
 
 
 Argentina:
@@ -699,7 +699,7 @@ Singapore:
       entertainment: https://maps.app.goo.gl/Fee6pXHfLErSC7u16
       hotels: https://maps.app.goo.gl/XUPCb4oTmxAoP38P7
       restaurants: 
-      food: 
+      food: https://maps.app.goo.gl/qnfu2p9r5UbUP8Aa6
       services: 
       sights: https://maps.app.goo.gl/s6dzJQDGHdha98fV8
 
@@ -794,12 +794,12 @@ Netherlands:
   lists_urls:
     general: https://maps.app.goo.gl/6XG6AbN27i226jug7
     liked: 
-      entertainment: 
+      entertainment: https://maps.app.goo.gl/gF7cNuT5MqUzEYTi9
       hotels: 
       restaurants: 
       food: 
       services: 
-      sights: 
+      sights: https://maps.app.goo.gl/19er5Hkz4w45jxB87
     recommended:
       entertainment: https://maps.app.goo.gl/D79pBEwdDnhAQCGz5
       hotels: 
@@ -829,7 +829,173 @@ Monaco:
       services: 
       sights: 
 
+Luxembourg:
+  name: 🇱🇺 Luxembourg
+  country_code: LU
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/omzbsuKicxPArGrp6
+    liked: 
+      entertainment: 
+      hotels: https://maps.app.goo.gl/v9eBGCrTwzZnUGor8
+      restaurants: https://maps.app.goo.gl/zXyZtq3pr5f3FjUt9 
+      food: https://maps.app.goo.gl/gKHdpizBpnD9chpt8
+      services: 
+      sights: https://maps.app.goo.gl/Kvso7dxBefzihcLN8
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: https://maps.app.goo.gl/d3U5zvjuY1Fix6C96
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/3zAqxYB6n5j2X8Gp9
 
+Slovenia:
+  name: 🇸🇮 Slovenia
+  country_code: SL
+  videos:
+  lists_urls: 
+    general: https://maps.app.goo.gl/3tqH5NaAEtpvvDU89
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/75Fm5RMWtyiaMFS47
+
+Romania:
+  name: 🇷🇴 Romania
+  country_code: RO
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/kC4B6yfdRSqegrnq8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/8NpU2GKibBp9exxv6
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/NKnR82ZRztvSRuuv7
+      
+Vietnam:
+  name: 🇻🇳 Vietnam
+  country_code: VN
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/oupCaVbQoRgkoTxH8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/n6FaxbcrnYnguyY77
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: 
+      
+Thailand:
+  name: 🇹🇭 Thailand
+  country_code: TH
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/wocdJ6LPCYPgCFVs8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/ifcBZyMdvucWuMeJ7
+      
+Egypt:
+  name: 🇪🇬 Egypt
+  country_code: EG
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/uxHpPYa4ejKmthwb7
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: 
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/k3DeENncSfdwu8RD8
+      
+Namibia:
+  name: 🇳🇦 Namibia
+  country_code: NA
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/km5DjmKwBagxWnpm8
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/ZYadLDmbeoW85s69A
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/9kZHVMjbnUvheTrw6
+      
+Morocco:
+  name: 🇲🇦 Morocco
+  country_code: MA
+  videos:
+  lists_urls:
+    general: https://maps.app.goo.gl/MzuZV4JqGztuf3LL6
+    liked: 
+      entertainment: 
+      hotels: 
+      restaurants:  
+      food: 
+      services: 
+      sights: 
+    recommended:
+      entertainment: https://maps.app.goo.gl/KcG5wPdmuWRgV85y8
+      hotels: 
+      restaurants: 
+      food: 
+      services: 
+      sights: https://maps.app.goo.gl/Z6D55EbrB6vLUrYS6
 
 
 
